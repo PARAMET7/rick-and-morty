@@ -1,0 +1,25 @@
+@import "../../styles.css";
+
+.navigation {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  height: fit-content;
+  /* display: grid;
+  grid-template-columns: 100px 100px 100px; */
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: var(--color-primary2);
+  opacity: 70%;
+}
+
+.navigation__pagination {
+  /* display: grid; */
+  background-color: rgb(214, 240, 82);
+  opacity: 70%;
+  place-items: center;
+  color: var(--color-dark);
+  padding: 2px;
+}

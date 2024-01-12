@@ -1,0 +1,15 @@
+.button {
+  border: 0px;
+  height: fit-content;
+  /* border-color: none; */
+  margin-bottom: 40px;
+  background-color: rgb(214, 240, 82);
+  opacity: 70%;
+  color: var(--color-dark);
+  padding: 1px;
+  margin: 1px;
+}
+
+.button:hover {
+  background-color: var(--light-background);
+}

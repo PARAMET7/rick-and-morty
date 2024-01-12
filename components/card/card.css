@@ -1,0 +1,39 @@
+.card-container {
+  margin-bottom: 60px;
+}
+.card {
+  width: 350px;
+  background-color: var(--color-btight-blue);
+  border-radius: 15px;
+}
+
+.card__info {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto 1fr;
+}
+.card__content {
+  background-color: rgb(4, 3, 3);
+  padding: 20px 20px 20px;
+  display: grid;
+  gap: 20px;
+  margin: 15px;
+  background-color: var(--color-btight-blue);
+}
+
+.card__info-description {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+}
+
+.card__image {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 7%;
+}
